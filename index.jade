@@ -1,0 +1,60 @@
+doctype html
+html(lang="en")
+  head
+    title Portfolio Page
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width", initial-scale="1")
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
+  body(style="padding-top: 70px")
+    .container
+      nav.navbar.navbar-default.navbar-fixed-top
+        .container
+          a.navbar-brand(href="#")
+            i.fa.fa-rebel  SiD-93
+          ul.list-inline.navbar-right(style="margin-top: 10px")
+            //li.button.btn.btn-default.navbar-btn.fa.fa-briefcase(href="https://www.google.com")  Portfolio
+            li
+              a(href="#about", role="button").btn.btn-info.fa.fa-user  About
+            //li.button.btn.btn-default.navbar-btn.fa.fa-user  About
+            li
+              a(href="#portfolio", role="button").btn.btn-info.fa.fa-briefcase  Portfolio
+            //li.button.btn.btn-default.navbar-btn.fa.fa-envelope  Contact
+            li
+              a(href="#contact", role="button").btn.btn-info.fa.fa-user  Contact
+    //hr
+    .container-fluid
+    section#about.well.well-lg
+      //h2.text-center.em About
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    section#portfolio.well.well-lg
+      h2.text-center.em Portfolio
+      .row
+        .col-md-6
+          img(src="http://placehold.it/600x393")
+        .col-md-6
+          img(src="http://placehold.it/600x393")  
+      hr
+      .row
+        .col-md-6
+          img(src="http://placehold.it/600x393")
+        .col-md-6
+          img(src="http://placehold.it/600x393")
+    section#contact.well.well-lg
+      h2#contact.text-center.em Contact
+      ul.list-inline.text-center
+        li
+          a(href=""): .fa.fa-codepen
+        li
+          a(href=""): .fa.fa-github
+        li
+          a(href=""): .fa.fa-google-plus
+        li
+          a(href=""): .fa.fa-linkedin
+        //li
+        //  a(href=""): .fa.fa-rebel.fa-5
+  footer.footer
+    .container
+      p.text-center Written and coded by Siddharth Ramesh
